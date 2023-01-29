@@ -1,0 +1,38 @@
+toDo table:
+- id PK
+- Description
+- timestamp
+- deadline
+- Status
+    - Pending
+    - Expired
+    - Done
+- Pinned
+    - True
+    - False
+
+Endpoints:
+
+1. GET - Retrieve full list
+- Add pagination, START, OFFSET, LIMIT
+- filtered by: name, end date
+- sorted by: date of creation
+
+2. POST - Create new to do
+
+3. PUT - Edit toDo
+- Change description
+- Change deadline
+
+4. PUT - Mark as done
+- Mark as done
+
+5. DELETE - Delete to do
+
+Functions:
+1. checkDeadline
+- check if toDoDeadline < NOW and update status if so
+
+
+
+
